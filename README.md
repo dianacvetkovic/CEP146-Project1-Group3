@@ -7,7 +7,7 @@ Group Presentation - Group 3
 ## Team Members (Name and Student Number)
 1. Diana Cvetkovic - 142601244
 2. Nicolas Beard - 144229242
-3. X
+3. David Oke - 112170253
 4. X
 
 # Topic Summary:
