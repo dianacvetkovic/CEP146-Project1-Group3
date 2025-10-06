@@ -6,7 +6,7 @@ Group Presentation - Group 3
 - *insert title here*
 ## Team Members (Name and Student Number)
 1. Diana Cvetkovic - 142601244
-2. X
+2. Nicolas Beard - 144229242
 3. X
 4. X
 
