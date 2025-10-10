@@ -89,7 +89,7 @@ Brady, M. (2024, July 12). AI brings soaring emissions for Google and Microsoft,
 
 
 # Diana's Research:
-1. TechWyse – “Google Drops the 100 Results per Page Setting” (Sept 26, 2025, by Ayushi Salvi)
+# 1. TechWyse – “Google Drops the 100 Results per Page Setting” (Sept 26, 2025, by Ayushi Salvi)
 ## What Happened
   - Google quietly removed the setting that allowed 100 results per search page in mid-September 2025.
   - Previously, users could:
@@ -138,7 +138,8 @@ Brady, M. (2024, July 12). AI brings soaring emissions for Google and Microsoft,
 - Stay updated on how your SEO tools are adjusting to the change.
 - Begin optimizing for AI visibility, ensuring your content appears in AI-generated search results and summaries.
 
-2. Search Engine Land – “Google Search Confirms It Does Not Support the Results per Page Parameter” (Sept 18, 2025, by Barry Schwartz)
+
+# 2. Search Engine Land – “Google Search Confirms It Does Not Support the Results per Page Parameter” (Sept 18, 2025, by Barry Schwartz)
 ## What Changed
 - Around Sept 10–12, 2025, Google disabled the “&num=100” URL parameter that allowed users to load 100 search results per page.
 - Rank-checking tools immediately began showing errors, and Search Console data showed massive drops in impressions.
@@ -165,7 +166,7 @@ Brady, M. (2024, July 12). AI brings soaring emissions for Google and Microsoft,
 - SEO tools are issuing updates, but users should expect less data depth and more reliance on top-page results.
 - Over time, marketers may notice more consistent but smaller-scale performance data.
 
-3. Innovative Media – “Google Removed num=100: What It Means for Data, Search Visibility, and SEO” (Innovative Media Canada)
+# 3. Innovative Media – “Google Removed num=100: What It Means for Data, Search Visibility, and SEO” (Innovative Media Canada)
 - Between late 2024 and early 2025, Google quietly disabled the “num=100” search parameter — previously used to display or scrape 100 results per page.
 - The change affects SEO data transparency, search visibility, and AI data access across the web.
 
@@ -218,7 +219,7 @@ Brady, M. (2024, July 12). AI brings soaring emissions for Google and Microsoft,
 - Fewer results mean the internet appears more curated, with more control in Google’s hands.
 - Businesses that adapt with quality content and AI-optimized strategies will remain visible.
 
-4. The HOTH – “Why You Can’t See 100 Results on Google Anymore” (Sept 25, 2025, by Rachel Hernandez)
+# 4. The HOTH – “Why You Can’t See 100 Results on Google Anymore” (Sept 25, 2025, by Rachel Hernandez)
 ## What Changed
 - Between Sept 10–12, 2025, Google disabled the “&num=100” parameter that allowed showing 100 results per page.
 - This immediately disrupted rank-tracking tools (Ahrefs, Semrush, etc.), causing:
