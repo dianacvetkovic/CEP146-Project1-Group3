@@ -86,3 +86,173 @@ Google Cloud. (2025, August 21). Measuring the environmental impact of AI infere
 Castro, D. (2025, August 28). Google’s estimate of AI resource consumption leaves out too much. Computerworld. https://www.computerworld.com/article/4047859/googles-estimate-of-ai-resource-consumption-leaves-out-too-much.html
 
 Brady, M. (2024, July 12). AI brings soaring emissions for Google and Microsoft, a major contributor to climate change. NPR. https://www.npr.org/2024/07/12/g-s1-9545/ai-brings-soaring-emissions-for-google-and-microsoft-a-major-contributor-to-climate-change
+
+
+# Diana's Research:
+1. TechWyse – “Google Drops the 100 Results per Page Setting” (Sept 26, 2025, by Ayushi Salvi)
+## What Happened
+  - Google quietly removed the setting that allowed 100 results per search page in mid-September 2025.
+  - Previously, users could:
+    - Change the results-per-page setting manually in Google preferences, or
+    - Add “&num=100” at the end of a search URL to force 100 results.
+  - Both methods stopped working abruptly, with Google only confirming that the feature would no longer be supported—no formal announcement was made.
+
+## Why Google Removed It
+  - To limit large-scale data scraping and LLM (Large Language Model) training:
+    - The “100 results” option allowed bots and tools to collect huge portions of Google’s search index in one request.
+    - Rank trackers and AI data harvesters benefited most, using this data for keyword tracking and machine learning.
+    - Disabling it helps Google restrict access to bulk data and reduce competitive risks from AI companies.
+  - To better align with real user behavior:
+    - Research shows most users never scroll past page one of results.
+    - Showing 100 results at once didn’t reflect genuine search engagement, so limiting results makes analytics more realistic.
+  - To improve server performance and efficiency:
+    - Fetching 100 results in a single query puts a heavier load on Google’s infrastructure.
+    - Smaller batches spread requests more evenly, ensuring faster, more stable searches globally.
+
+## Impact on Reporting Metrics
+- Impressions in Search Console decreased because many came from bots, not real users.
+- Average position improved for many websites since inflated low-ranking data was removed.
+- Traffic numbers stayed stable — actual visits and clicks didn’t change, only how data is counted.
+
+## SEO Reporting Changes
+- The September 2025 shift means any sudden data changes (impressions or average rank) are not due to SEO strategy, but due to Google’s reporting cleanup.
+- Marketers should now focus on meaningful metrics — clicks, leads, and conversions — instead of inflated impressions.
+- This can actually benefit marketers, allowing them to concentrate on top-page rankings that drive real traffic.
+
+## Effect on SEO Tools
+- Rank tracking tools (SEMrush, Ahrefs, Moz, etc.) are directly impacted:
+  - Each “100-result” query now splits into about 10 separate requests, raising costs and slowing down data collection.
+  - Tools briefly failed to gather complete SERP data after the update, missing deep-page rankings.
+  - Platforms are now reducing tracking depth, focusing mainly on the top 10–20 results where clicks occur.
+  - The extra API load is likely to cause higher subscription prices or stricter plan limits for SEO tool users.
+
+## The AI Connection
+- Google likely made this move to control access to its search data as AI systems (like ChatGPT and others) depend on it for training.
+- Limiting bulk scraping prevents outside companies from creating AI products using Google’s data.
+- This aligns with Google’s broader strategy to push users toward its own AI-powered search features, such as AI overviews.
+
+## What Marketers Should Do
+- Add a clear note in analytics dashboards marking this change (mid-Sept 2025) to avoid confusion in future performance reviews.
+- Focus less on impressions, more on customer actions (clicks, conversions).
+- Concentrate SEO strategies on page-one visibility, since few users go deeper.
+- Stay updated on how your SEO tools are adjusting to the change.
+- Begin optimizing for AI visibility, ensuring your content appears in AI-generated search results and summaries.
+
+2. Search Engine Land – “Google Search Confirms It Does Not Support the Results per Page Parameter” (Sept 18, 2025, by Barry Schwartz)
+## What Changed
+- Around Sept 10–12, 2025, Google disabled the “&num=100” URL parameter that allowed users to load 100 search results per page.
+- Rank-checking tools immediately began showing errors, and Search Console data showed massive drops in impressions.
+- Google later confirmed that the parameter was “not officially supported.”
+
+## Google’s Statement and Background
+- A Google spokesperson said the feature was never formally supported, implying its removal is intentional.
+- Historically, Google allowed users to choose result numbers through Settings (until 2018). After that, only the URL trick worked—until now.
+- When asked whether this was a bug, Google repeated that the feature isn’t supported, suggesting this was a permanent policy change.
+
+## Possible Reasons for the Change
+- Google did not specify reasons, but industry speculation suggests:
+  - Preventing unauthorized scraping that violated Google’s Terms of Service.
+  - Possibly restricting AI developers (like OpenAI) from using search data for model training.
+- The move also appears to reduce inflated metrics in Search Console caused by bots.
+
+## Effects on SEO and Tools
+- Third-party rank tracking platforms relying on “&num=100” have had to reprogram their data collection systems.
+- Many SEO dashboards now show lower impressions but higher average rankings, since irrelevant bot data is removed.
+- Search Console’s datasets are expected to be more accurate, showing real human behavior rather than machine activity.
+
+## Why It Matters
+- If you relied on “&num=100,” that method is now obsolete — no workaround exists.
+- SEO tools are issuing updates, but users should expect less data depth and more reliance on top-page results.
+- Over time, marketers may notice more consistent but smaller-scale performance data.
+
+3. Innovative Media – “Google Removed num=100: What It Means for Data, Search Visibility, and SEO” (Innovative Media Canada)
+- Between late 2024 and early 2025, Google quietly disabled the “num=100” search parameter — previously used to display or scrape 100 results per page.
+- The change affects SEO data transparency, search visibility, and AI data access across the web.
+
+## What “num=100” Did
+- Allowed marketers and analysts to view 100 results per page instead of 10.
+- Essential for SEO tracking, keyword research, and web scraping.
+- Removal now caps access to 10 results per query, severely limiting visibility beyond the first page.
+
+## Impact on Search Visibility
+1. Reduced Access to Indexed Pages:
+- Researchers estimate that 80–90% of indexed pages are now hidden from large-scale analysis.
+- Pages ranking between positions 20–100 are still indexed but less visible and rarely seen.
+- Websites outside the top 10 now receive fewer referrals and impressions.
+2. Effects on AI and Data Scraping:
+- AI tools and SEO crawlers that used “num=100” to gather data now face slower, smaller data collection.
+- This move likely aims to restrict external AI models from harvesting Google’s search data for training.
+3. Transparency and Control:
+- Google now holds greater control over what data marketers can access.
+- Analysts must rely more on Google’s internal data tools (Search Console, Analytics).
+- Critics say this reduces independent oversight of how Google ranks pages.
+
+## Effects on SEO Strategy
+- Visibility Shrinks for Lower Rankings:
+  - Websites outside the top 10 are less discoverable.
+  - SEO efforts should prioritize ranking in the top results where traffic is concentrated.
+- Dependence on Google Tools Grows:
+  - Businesses now must rely on Search Console and Google Analytics for insights.
+- Shift Toward AI-Driven Search:
+  - The change aligns with Google’s Search Generative Experience (SGE) and AI-powered results.
+  - Success depends on how well content appears in AI overviews, not just classic rankings.
+
+## Impact on Marketing and Research
+- Keyword research becomes less complete as SEO tools can’t access deep-page data.
+- Market research is harder — niche competitors on later pages are less visible.
+- Content strategy must adjust — long-tail keyword opportunities are harder to detect.
+
+## Google’s Official Stance vs. Industry Interpretation
+- Google says the change improves performance and server efficiency.
+- Experts suspect it’s also designed to protect proprietary data and limit AI competition.
+- Some professionals argue it makes the web less open and auditable.
+
+## What Website Owners Should Do
+- Strengthen on-page SEO with optimized metadata and headers.
+- Improve user engagement signals (CTR, dwell time).
+- Focus on high-quality, trustworthy content that fits AI ranking systems.
+- Use Search Console data as the main performance metric source.
+
+## The Future Outlook
+- Google’s change signals a shift toward a smaller, AI-filtered web.
+- Fewer results mean the internet appears more curated, with more control in Google’s hands.
+- Businesses that adapt with quality content and AI-optimized strategies will remain visible.
+
+4. The HOTH – “Why You Can’t See 100 Results on Google Anymore” (Sept 25, 2025, by Rachel Hernandez)
+## What Changed
+- Between Sept 10–12, 2025, Google disabled the “&num=100” parameter that allowed showing 100 results per page.
+- This immediately disrupted rank-tracking tools (Ahrefs, Semrush, etc.), causing:
+  - Missing or inaccurate keyword data beyond page 1.
+  - Major impression losses (up to 87.7%) across Google Search Console data.
+  - 77% of sites lost unique ranking keywords.
+
+## Theories Behind Google’s Decision
+1. Preventing Bulk Scraping:
+- The parameter allowed any scraper to capture 100 results in one call — ideal for AI training data.
+- Removing it limits how much data LLMs and scrapers can harvest at once.
+2. Reducing Server Strain:
+- Each 100-result request consumed far more computing power.
+- Cutting it helps Google save energy and improve system efficiency.
+3. Improving Data Accuracy:
+- Since users rarely see 100 results, showing smaller batches creates more realistic analytics in Search Console.
+4. Protecting Google’s AI Advantage:
+- Google’s own AI search (powered by Gemini and AI Overviews) benefits when competitors have less access to raw data.
+
+## Impact on SEO and Data Tools
+- Each tool query now needs 10 separate page requests instead of one, raising infrastructure and subscription costs.
+- Data freshness suffers — gathering results takes longer, leading to outdated or missing keyword data.
+- Many dashboards currently display broken or incomplete tracking information.
+
+## Positive Outcomes
+- Although impressions dropped, Google Search Console data is now more accurate.
+- Previously, bots inflated impressions for results ranked 11–100.
+- With the change, metrics now better represent real user engagement.
+
+## What SEO Professionals Should Do
+- Remain patient as rank-tracking tools update their systems.
+- Watch for price or feature changes in your SEO platforms.
+- Shift focus toward new success indicators like:
+  - Visibility in AI Overviews.
+  - Brand mentions or citations in AI tools like ChatGPT and Perplexity.
+  - Share of voice across AI-enhanced SERPs.
+- Understand that organic blue-link rankings are no longer the sole measure of SEO success.
