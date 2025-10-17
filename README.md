@@ -2,8 +2,8 @@
 Group Presentation - Group 3
 
 # Project:
-## Title:
-- *insert title here*
+## Title: **Google’s AI Shift: Innovation or Overreach?**
+
 ## Team Members (Name and Student Number)
 1. Diana Cvetkovic - 142601244
 2. Nicolas Beard - 144229242
@@ -11,11 +11,11 @@ Group Presentation - Group 3
 4. Daud Ilori - 113252258
 
 # Topic Summary:
-*insert summary here*
+“Google’s AI Shift: Innovation or Overreach?” reports on Google’s controversial removal of the “100 results per page” search option as part of its broader move toward AI-driven systems like Gemini. While Google defends the change as a step toward faster, safer, and more sustainable search experiences, critics — especially small business owners — argue it limits transparency and online visibility. The segment highlights the growing divide between innovation and accessibility, asking whether Google’s AI evolution represents progress or a tightening grip on the digital world.
 
 # Link to YouTube Video:
-*insert youtube link here* (use markdown to insert link with title!)
+[Youtube Link](https://www.youtube.com/watch?v=f3lSmhc11r0)
 
 # Final Question:
-*insert final question*
+Is this the next evolution of technology, or the start of a more controlled web? 
 
